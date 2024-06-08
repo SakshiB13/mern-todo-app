@@ -25,7 +25,7 @@
     "start": "concurrently \"npm run server\" \"npm run client\"",
     "server": "node server.js",
     "client": "react-scripts start",
-    "build": "concurrently \"npm run server\" \"react-app-rewired build\"",
+    "build": "concurrently \"npm run server\" \"react-scripts build\"",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
